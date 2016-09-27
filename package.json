@@ -6,6 +6,9 @@
   "engines": {
     "node": ">=4"
   },
+  "bin": {
+    "mady": "lib/mady.js"
+  },
   "author": "Guillermo Grau Panea",
   "license": "MIT",
   "keywords": [
