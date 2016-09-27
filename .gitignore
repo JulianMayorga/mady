@@ -22,5 +22,3 @@ node_modules
 # All projects
 
 # Project-specific
-/public/assets
-/public/ssr
