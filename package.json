@@ -27,6 +27,7 @@
     "url": "git+https://github.com/guigrpa/mady.git"
   },
   "scripts": {
+    "preinstall": "npm run compile",
     "start": "babel-node src/server/startup --dir src/locales",
     "startAlt": "babel-node src/server/startup --dir tools/locales",
     "startProd": "node lib/mady",
